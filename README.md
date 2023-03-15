@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Mafaii/Frontend--Mentor-Fylo-data-storage-component
+- Live Site URL: https://mafaii.github.io/Frontend--Mentor-Fylo-data-storage-component/
 
 ## My process
 
