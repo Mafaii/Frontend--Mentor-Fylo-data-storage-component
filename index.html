@@ -1,31 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Fylo data storage component</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      position: absolute;
+      bottom: 0;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
-  You’ve used 815 GB of your storage
+  <main>
+    <section class="title-panel section-panel" id="title-section">
+      <img src="images/logo.svg" alt="logo" class="title-icon">
+      <!-- <h1 class="title-header" >Fylo</h1> -->
+      <div class="action-panel">
+        <div class="action-img">
+          <img src="images/icon-document.svg" alt="document icon">
+        </div>
+        <div class="action-img">
+          <img src="images/icon-folder.svg" alt="folder icon">
+        </div>
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        <div class="action-img">
+          <img src="images/icon-upload.svg" alt="upload icon">
+        </div>
+
+      </div>
+    </section>
+    <section class="storage-panel section-panel">
+      <span class="usage-txt">
+        You’ve used <strong>815 GB</strong> of your storage
+      </span>
+
+      <div class="usage-left">185 <span class="usage-left-txt">GB Left</span></div>
+
+      <div class="usage-bar usage-bar-container">
+        <div class="usage-progress usage-bar">
+          <div class="progress-dot"></div>
+        </div>
+      </div>
+      <div class="usage-range">
+        <span>0 GB</span>
+        <span>1000 GB</span>
+      </div>
+
+    </section>
+  </main>
+
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
 </body>
+
 </html>
